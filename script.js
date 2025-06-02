@@ -24,7 +24,7 @@ const checkPalindromeButton = () => {
         setTimeout(() => {
             palindromeInput.value = ""
             show.innerHTML = `<p>Your result will show here 😇🤩😇</p>`
-        }, 2000)
+        }, 4000)
     }
 
 }
