@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -12,7 +13,9 @@
         <h2>Palindrome Checker App</h2>
         <p>Enter a word or phase to check if it's a palindrome</p>
         <input type="text" placeholder="Put your word here...." id="palindromeInput" autofocus>
-        <button onclick="checkPalindromeButton()">Check</button>
+        <button onclick="checkPalindromeButton()">
+            <span id="sub">Check</span>
+        </button>
         <div id="show">
             <p>Your result will show here 😇🤩😇</p>
         </div>
