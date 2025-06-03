@@ -1,7 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* loader */
@@ -97,6 +97,7 @@
 }
 
 @keyframes pulse0112 {
+
   0%,
   100% {
     transform: scale(0);
@@ -110,7 +111,7 @@
 }
 
 body {
-  background-color: #1E1E2E ;
+  background-color: #1E1E2E;
   font-family: 'Poppins', sans-serif;
   color: #EAEAEA;
   display: flex;
@@ -131,14 +132,14 @@ body {
 }
 
 h2 {
-  color: #FCA311 ;
+  color: #FCA311;
   margin-bottom: 1rem;
 }
 
-.phase{
-    font-size: 15px;
-    color: #EAEAEA;
-    margin-bottom: 15px;
+.phase {
+  font-size: 15px;
+  color: #EAEAEA;
+  margin-bottom: 15px;
 }
 
 input {
