@@ -1,8 +1,27 @@
 const succesAudio = new Audio("success.mp3");
 const slowSad = new Audio("slowsad.wav");
+
+const toast = (text,background,color) => {
+ Toastify({
+  text,
+  duration: 3000,
+  newWindow: true,
+  close: true,
+  gravity: "top", // `top` or `bottom`
+  position: "right", // `left`, `center` or `right`
+  stopOnFocus: true, // Prevents dismissing of toast on hover
+  style: {
+    background,
+    color,
+  },
+  onClick: function(){} // Callback after click
+}).showToast();
+}
+
+
 const checkPalindromeButton = () => {
     if (palindromeInput.value === "") {
-        alert("Input a name ")
+        toast("Please enter a word or phrase to check! ✍️", "red", "white")
     } else {
         let reverseStr = palindromeInput.value.trim().toLowerCase()
         let newStr = reverseStr.split("").reverse().join("")

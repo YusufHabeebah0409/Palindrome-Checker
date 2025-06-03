@@ -6,9 +6,9 @@
 
 /* loader */
 .dot-spinner {
-  --uib-size: 2.8rem;
+  --uib-size: 1.2rem;
   --uib-speed: .9s;
-  --uib-color: #183153;
+  --uib-color: #FCA311;
   position: relative;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@
 .dot-spinner__dot {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 125px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -110,7 +110,7 @@
 }
 
 body {
-  background-color: #1E1E2E;
+  background-color: #1E1E2E ;
   font-family: 'Poppins', sans-serif;
   color: #EAEAEA;
   display: flex;
@@ -131,13 +131,12 @@ body {
 }
 
 h2 {
-  color: #FCA311;
+  color: #FCA311 ;
   margin-bottom: 1rem;
 }
 
 .phase{
     font-size: 15px;
-    /* color: #7F5AF0; */
     color: #EAEAEA;
     margin-bottom: 15px;
 }
@@ -156,7 +155,7 @@ button {
   width: 100%;
   background-color: #7F5AF0;
   color: #fff;
-  padding: 0.7rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   border: none;
   border-radius: 10px;
   cursor: pointer;
