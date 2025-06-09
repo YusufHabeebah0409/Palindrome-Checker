@@ -2,6 +2,12 @@ const succesAudio = new Audio("success.mp3");
 const slowSad = new Audio("slowsad.wav");
 const errorMsg = new Audio("error.mp3");
 
+document.addEventListener('keydown', (e) =>{
+    if(e.key === "Enter") {
+        checkPalindromeButton();
+    }
+});
+
 const toast = (text, background, color) => {
     Toastify({
         text,
