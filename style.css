@@ -172,3 +172,54 @@ button:hover {
   font-size: 1.2rem;
   color: #FCA311;
 }
+
+/* Responsiveness css  */
+
+@media (max-width: 500px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  input, button {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  #show {
+    font-size: 1rem;
+  }
+
+  .dot-spinner {
+    --uib-size: 1rem; 
+  }
+  .dot-spinner__dot {
+  left: 120px; 
+  }
+}
+
+@media (max-width: 360px) {
+  .container {
+    padding: 1rem;
+    border-radius: 15px;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  .dot-spinner__dot {
+    left: 120px; 
+  }
+
+  input, button {
+    font-size: 0.85rem;
+  }
+
+  #show {
+    font-size: 0.9rem;
+  }
+}
