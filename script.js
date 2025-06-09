@@ -1,5 +1,6 @@
 const succesAudio = new Audio("success.mp3");
 const slowSad = new Audio("slowsad.wav");
+const errorMsg = new Audio("error.mp3");
 
 const toast = (text, background, color) => {
     Toastify({
@@ -21,6 +22,7 @@ const toast = (text, background, color) => {
 
 const checkPalindromeButton = () => {
     if (palindromeInput.value === "") {
+        errorMsg.play();
         toast("Please enter a word or phrase to check! ✍️", "red", "white")
     } else {
         let reverseStr = palindromeInput.value.trim().toLowerCase()
